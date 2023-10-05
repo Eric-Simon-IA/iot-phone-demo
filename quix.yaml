@@ -100,7 +100,7 @@ deployments:
   - name: GForce InfluxDB Sink
     application: InfluxDBSink
     deploymentType: Service
-    version: 26a36d0
+    version: 756dc29
     resources:
       cpu: 500
       memory: 500

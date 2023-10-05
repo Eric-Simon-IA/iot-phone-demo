@@ -4,7 +4,7 @@ variables:
   - name: BearerToken
     inputType: Secret
     description: ''
-    defaultValue: qr_bearer_token
+    defaultValue: qr_bearer
     required: true
 dockerfile: build/dockerfile
 defaultFile: ui/src/app/services/quix.service.ts

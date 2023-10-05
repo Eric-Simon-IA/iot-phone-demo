@@ -145,7 +145,7 @@ deployments:
   - name: GPS InfluxDB Sink
     application: InfluxDBSink
     deploymentType: Service
-    version: 756dc29
+    version: ab9ca2cab7586f0cc936618bded59d763668546b
     resources:
       cpu: 500
       memory: 500
@@ -161,7 +161,7 @@ deployments:
         inputType: FreeText
         description: Host address for the InfluxDB instance.
         required: true
-        value: us-east-1-1.aws.cloud2.influxdata.com
+        value: eu-central-1-1.aws.cloud2.influxdata.com
       - name: INFLUXDB_TOKEN
         inputType: Secret
         description: Authentication token to access InfluxDB.
@@ -171,12 +171,12 @@ deployments:
         inputType: FreeText
         description: Organization name in InfluxDB.
         required: false
-        value: Quix
+        value: Lemon
       - name: INFLUXDB_DATABASE
         inputType: FreeText
         description: Database name in InfluxDB where data should be stored.
         required: true
-        value: Quix
+        value: quix_demo
       - name: INFLUXDB_TAG_COLUMNS
         inputType: FreeText
         description: Columns to be used as tags when writing data to InfluxDB.

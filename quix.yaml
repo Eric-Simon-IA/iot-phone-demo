@@ -286,7 +286,7 @@ topics:
       retentionInMinutes: 10080
       retentionInBytes: 52428800
   - name: gps
-    persisted: false
+    persisted: true
     configuration:
       partitions: 2
       replicationFactor: 2

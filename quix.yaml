@@ -269,28 +269,28 @@ topics:
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: -1
+      retentionInMinutes: 10080
       retentionInBytes: 52428800
   - name: events
     persisted: false
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: -1
+      retentionInMinutes: 10080
       retentionInBytes: 52428800
   - name: gforce
     persisted: true
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: -1
+      retentionInMinutes: 10080
       retentionInBytes: 52428800
   - name: gps
     persisted: false
     configuration:
       partitions: 2
       replicationFactor: 2
-      retentionInMinutes: -1
+      retentionInMinutes: 10080
       retentionInBytes: 52428800
   - name: phone-data-replay
     persisted: false

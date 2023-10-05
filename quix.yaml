@@ -200,7 +200,7 @@ deployments:
         inputType: FreeText
         description: Host address for the InfluxDB instance.
         required: true
-        value: us-east-1-1.aws.cloud2.influxdata.com
+        value: eu-central-1-1.aws.cloud2.influxdata.com
       - name: INFLUXDB_TOKEN
         inputType: Secret
         description: Authentication token to access InfluxDB.
@@ -210,12 +210,12 @@ deployments:
         inputType: FreeText
         description: Organization name in InfluxDB.
         required: true
-        value: Quix
+        value: Lemon
       - name: INFLUXDB_DATABASE
         inputType: FreeText
         description: Database name in InfluxDB where data is stored.
         required: true
-        value: Quix
+        value: quix_demo
       - name: INFLUXDB_MEASUREMENT_NAME
         inputType: FreeText
         description: The InfluxDB measurement to read data from. If not specified, the name of the output topic will be used

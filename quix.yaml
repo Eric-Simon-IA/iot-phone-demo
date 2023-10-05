@@ -9,7 +9,7 @@ deployments:
   - name: QR Settings Share
     application: QR Settings Share
     deploymentType: Service
-    version: 26a36d0
+    version: 2dabed24c24ec10f4601a1e5215d0c9791c11e64
     resources:
       cpu: 200
       memory: 200
@@ -23,7 +23,7 @@ deployments:
         inputType: Secret
         description: ''
         required: true
-        value: qr_bearer_token
+        value: qr_bearer
   - name: Fleet console
     application: FleetConsole
     deploymentType: Service

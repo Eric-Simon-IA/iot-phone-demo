@@ -190,7 +190,7 @@ deployments:
   - name: Model training
     application: ModelTraining
     deploymentType: Job
-    version: 4ce188105459a0d7d253667c3614ec4a7fe32ce7
+    version: 756dc29
     resources:
       cpu: 500
       memory: 500

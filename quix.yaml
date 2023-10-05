@@ -27,7 +27,7 @@ deployments:
   - name: Fleet console
     application: FleetConsole
     deploymentType: Service
-    version: fleetapp-v1
+    version: 26a36d0
     resources:
       cpu: 200
       memory: 200
@@ -50,7 +50,7 @@ deployments:
   - name: ShakeDetection
     application: ShakeDetection
     deploymentType: Service
-    version: 7d2084b1ce0036242ad59d694d36be2a206d5f80
+    version: 26a36d0
     resources:
       cpu: 1000
       memory: 2000
@@ -75,7 +75,7 @@ deployments:
   - name: Splitter
     application: Splitter
     deploymentType: Service
-    version: splitter-v1
+    version: 26a36d0
     resources:
       cpu: 1000
       memory: 500
@@ -100,7 +100,7 @@ deployments:
   - name: GForce InfluxDB Sink
     application: InfluxDBSink
     deploymentType: Service
-    version: influxsink-v1.1
+    version: 26a36d0
     resources:
       cpu: 1000
       memory: 500
@@ -145,7 +145,7 @@ deployments:
   - name: GPS InfluxDB Sink
     application: InfluxDBSink
     deploymentType: Service
-    version: influxsink-v1.1
+    version: 26a36d0
     resources:
       cpu: 1000
       memory: 500

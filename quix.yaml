@@ -9,7 +9,7 @@ deployments:
   - name: QR Settings Share
     application: QR Settings Share
     deploymentType: Service
-    version: qr-v1.1
+    version: 26a36d0
     resources:
       cpu: 200
       memory: 200
